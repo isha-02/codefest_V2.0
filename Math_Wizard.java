@@ -31,7 +31,7 @@ class Math_Wizard{
 				st = st.replaceAll("three","3");
 				st = st.replaceAll("four","4");
 				st = st.replaceAll("five","5");
-			    st = st.replaceAll("six","6");
+			    	st = st.replaceAll("six","6");
 				st = st.replaceAll("seven","7");
 				st = st.replaceAll("eight","8");
 				st = st.replaceAll("nine","9");
@@ -39,11 +39,11 @@ class Math_Wizard{
 				idx = st.indexOf("=");
 				// System.out.println(st);
 				// result = Double.parseDouble(evaluate(st.substring(0,idx)));
-                result = Double.parseDouble(evaluate(st.substring(0,idx))); 				
+                		result = Double.parseDouble(evaluate(st.substring(0,idx))); 				
 				result_given = Double.parseDouble(st.substring(idx+1));
 				// System.out.println("result = "+result+"		given result = "+result_given);
 				// System.out.println(result);
-                // System.out.println(result_given);
+                		// System.out.println(result_given);
 				if(result == result_given){
 					matches = true;
 				}
